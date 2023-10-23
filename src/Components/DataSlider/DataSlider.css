@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative; /* Position relative for arrow positioning */
+}
+
+.box {
+  margin: 150px;
+  background-color: #f0f0f0;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 24px;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+.arrow {
+  font-size: 100px; /* Increased arrow size */
+  cursor: pointer;
+}
+
+
+
+.button {
+  display: contents;
+}
