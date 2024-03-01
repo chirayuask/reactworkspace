@@ -6,6 +6,7 @@ import Sudoku from './Components/Sudoku'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import DataSlider from "./Components/DataSlider/DataSlider";
 import QuizQuestions from "./Components/QuestionsQuiz/QuizQuestions";
+import StopWatch from "./Components/Stopwatch/StopWatch.js";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/Sudoku' element={<Sudoku />}></Route>
         <Route exact path='/DataSlider' element={<DataSlider />}></Route>
         <Route exact path='/QuizQuestions' element={<QuizQuestions />}></Route>
+        <Route exact path='/stopwatch' element={<StopWatch />}></Route>
       </Routes>
     </Router>
   )
